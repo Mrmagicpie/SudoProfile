@@ -4,4 +4,4 @@ Hey there, thank you for considering to contribute to this project! I will accep
 
 <h2 align="center">Contributing</h2>
 
-Fork [this](https://github.com/mrmagicpie/rootprofile) repository, make, and commit your edits, then open a pull request, and I will try to review it within 2 days.
+Fork [this](https://github.com/mrmagicpie/sudoprofile) repository, make, and commit your edits, then open a pull request, and I will try to review it within 2 days.

@@ -10,6 +10,6 @@ Due to the nature of this project, I do not accept many security issues. But, if
 
 ## Reporting a Vulnerability
 
-Please make an issue [here](https://github.com/Mrmagicpie/RootProfile/issues). I will try to review, and process your issue within 2 days. If I believe the issue is valid, **and** I do not think you have any malicious intents, I will approve your issue.
+Please make an issue [here](https://github.com/Mrmagicpie/SudoProfile/issues). I will try to review, and process your issue within 2 days. If I believe the issue is valid, **and** I do not think you have any malicious intents, I will approve your issue.
 
 If for some reason I think you have any malicious intents with your issue, you will be blocked from future issues, and it will be denied. This is an unappealable punishment to protect this project.
