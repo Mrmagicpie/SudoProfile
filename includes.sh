@@ -1,17 +1,17 @@
-if [ -f ~/root-config/aliases.sh ]; then
-    . ~/root-config/aliases.sh
+if [ -f ~/SudoProfile/aliases.sh ]; then
+    . ~/SudoProfile/aliases.sh
 fi
 
-if [ -f ~/root-config/main.sh ]; then
-    . ~/root-config/main.sh
+if [ -f ~/SudoProfile/main.sh ]; then
+    . ~/SudoProfile/main.sh
 fi
 
 #if [ -f /root/root-config/colour.sh ]; then
 #    . /root/root-config/colour.sh
 #fi
 
-if [ -f ~/root-config/ls.sh ]; then
-    . ~/root-config/ls.sh
+if [ -f ~/SudoProfile/ls.sh ]; then
+    . ~/SudoProfile/ls.sh
 fi
 
 # Alias definitions.

@@ -1,17 +1,17 @@
 #
 #
-# RootProfile Setup.sh | Copyright (c) 2020 Mrmagicpie
+# SudoProfile Setup.sh | Copyright (c) 2020 Mrmagicpie
 #
 #
 
 echo "|---------------------------------|"
-echo "|   Welcome to Mrmagicpie's root  |"
+echo "|   Welcome to Mrmagicpie's sudo  |"
 echo "|   config setup. Would you like  |"
 echo "|   to proceed with this setup?   |"
 echo "|                                 |"
 echo "| WARNING:		        |"
 echo "| This will clear all your current|"
-echo "|    '/root/.bashrc' settings!    |"
+echo "|      '~/.bashrc' settings!      |"
 echo "| Please stash all changes before |"
 echo "|           you begin!	 	|"
 echo "| 				|"
@@ -46,22 +46,22 @@ echo "|------------------------|"
 
 sleep 1
 
-cd /root
+cd ~
 
-if [ -f /root/.bashrc ]; then
+if [ -f ~/.bashrc ]; then
     mv .bashrc default-bashrc.ubuntu
 fi;
 
-git clone https://github.com/Mrmagicpie/RootProfile root-config
+git clone https://github.com/Mrmagicpie/SudoProfile
 mv root-config/.bashrc ./.bashrc
 
 
 
 echo "|---------------------------------------------|"
-echo "| Finished the Mrmagicpie Root Profile setup! |"
+echo "| Finished the Mrmagicpie Sudo Profile setup! |"
 echo "|                                             |"
 echo "|        Report issues on our GitHub:         |"
-echo "|   https://github.com/Mrmagicpie/RootProfile |"
+echo "|   https://github.com/Mrmagicpie/SudoProfile |"
 echo "|---------------------------------------------|"
 
 sleep 3
